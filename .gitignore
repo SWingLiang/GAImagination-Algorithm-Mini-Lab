@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+outputs/
+build/
+dist/
+*.spec
+.DS_Store
