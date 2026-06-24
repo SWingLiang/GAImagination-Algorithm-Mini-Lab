@@ -1,0 +1,11 @@
+name,english,category,description,motion,music,visual,ritual,craft,narrative,performance,community
+Yueju,Cantonese Opera,Opera,Stage performance with singing movement costume and narrative,0.55,0.95,0.75,0.45,0.25,0.95,1.00,0.70
+Yingge,Yingge Dance,Dance,Group formation drum rhythm martial gesture and heroic story,1.00,0.90,0.65,0.80,0.20,0.70,0.95,0.95
+Lion Dance,Lion Dance,Dance,Lion head footwork drum rhythm and ritual blessing,1.00,0.88,0.85,0.92,0.55,0.60,0.95,0.90
+Dragon Boat,Dragon Boat,Ritual,Festival racing drums and community cooperation,0.85,0.75,0.70,0.88,0.30,0.55,0.80,1.00
+Guangcai,Guangcai Porcelain,Craft,Porcelain pattern color and export culture,0.10,0.10,1.00,0.30,1.00,0.55,0.20,0.65
+Paper Cutting,Paper Cutting,Craft,Paper knife pattern and folk meaning,0.10,0.05,0.95,0.50,0.95,0.65,0.18,0.70
+Puppet Theater,Puppet Theater,Theater,Puppet control music singing and narrative,0.65,0.70,0.80,0.45,0.55,0.90,0.90,0.65
+Chaoju,Teochew Opera,Opera,Dialect singing music movement and local story,0.50,0.95,0.70,0.45,0.20,0.95,1.00,0.75
+Wing Chun,Wing Chun,Martial Art,Body structure movement route defense strategy and mentorship,0.95,0.20,0.35,0.35,0.10,0.45,0.70,0.80
+Canton Embroidery,Canton Embroidery,Craft,Needlework pattern material and symbolic meaning,0.05,0.05,0.95,0.25,1.00,0.45,0.12,0.60
