@@ -1,65 +1,36 @@
 # Build Windows EXE Files
 
-This guide packages each mini app as a Windows `.exe` file for lecture sharing.
-
-## 1. Install PyInstaller
+Use PyInstaller on Windows.
 
 ```bash
 pip install pyinstaller
 ```
 
-## 2. Build Attention Visualizer
+Build each mini app:
 
 ```bash
 pyinstaller --onefile --name AttentionVisualizer apps/01_attention_visualizer/attention_visualizer.py
-```
-
-Output:
-
-```text
-dist/AttentionVisualizer.exe
-```
-
-## 3. Build ICH Embedding Map
-
-```bash
 pyinstaller --onefile --name ICHEmbeddingMap apps/02_ich_embedding_map/ich_embedding_map.py
-```
-
-Output:
-
-```text
-dist/ICHEmbeddingMap.exe
-```
-
-## 4. Build RL Tightrope Demo
-
-```bash
 pyinstaller --onefile --name RLTightropeDemo apps/03_rl_tightrope_demo/rl_tightrope_demo.py
+pyinstaller --onefile --name MotionFeatureExtractor apps/04_motion_feature_extractor/motion_feature_extractor.py
+pyinstaller --onefile --name RhythmMotionMatcher apps/05_rhythm_motion_matcher/rhythm_motion_matcher.py
 ```
 
-Output:
-
-```text
-dist/RLTightropeDemo.exe
-```
-
-## 5. Suggested Release Folder
+Suggested release folder:
 
 ```text
 release/
 ├── AttentionVisualizer.exe
 ├── ICHEmbeddingMap.exe
 ├── RLTightropeDemo.exe
-├── sample_heritage_text.txt
-├── ich_items.csv
+├── MotionFeatureExtractor.exe
+├── RhythmMotionMatcher.exe
+├── data/
 └── README_for_audience.md
 ```
 
-## Notes
+Notes:
 
-- The apps do not require cloud API keys.
-- The attention visualizer uses only Python standard library.
-- The embedding map requires `numpy` and `matplotlib`.
-- The RL demo uses standard library for CLI and Tkinter for GUI.
-- Generated files are written to the local `outputs/` folder.
+- Do not commit `build/`, `dist/`, or `.spec` files.
+- App 04 reads keypoint CSV. Future versions can add MediaPipe/OpenPose extraction.
+- App 05 reads signal CSV. Future versions can add Librosa beat detection.

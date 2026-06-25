@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>GAImagination Attention Visualizer</title>
+<style>
+body { margin: 0; background: #050b14; color: #eaf7ff; font-family: Arial, sans-serif; }
+.wrap { max-width: 1100px; margin: 48px auto; padding: 32px; }
+.kicker { color: #00e6d2; letter-spacing: 0.28em; font-size: 14px; font-weight: 700; }
+h1 { font-size: 44px; margin: 18px 0 6px; }
+.sub { color: #9db5c8; font-size: 18px; margin-bottom: 34px; }
+.panel { border: 1px solid rgba(0,230,210,.35); border-radius: 18px; padding: 28px; background: rgba(7,20,34,.8); box-shadow: 0 0 40px rgba(0,230,210,.08); }
+.text { font-size: 30px; line-height: 1.85; }
+.tok { border-radius: 8px; padding: 5px 8px; margin: 2px; display: inline-block; color: #f8ffff; }
+.note { margin-top: 24px; color: #bdd4e5; font-size: 16px; line-height: 1.6; }
+.legend { margin-top: 22px; height: 16px; border-radius: 8px; background: linear-gradient(90deg, rgba(0,230,210,.12), rgba(0,230,210,.85)); }
+.labels { display: flex; justify-content: space-between; color: #88a6b8; margin-top: 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="kicker">ATTENTION VISUALIZER · 注意力机制</div>
+  <h1>Which cultural features does AI focus on?</h1>
+  <div class="sub">A transparent teaching demo for Transformer-style attention.</div>
+  <div class="panel">
+    <div class="text"><span class="tok" style="background:rgba(0, 230, 210, 0.85)" title="attention=1.00">Cantonese </span><span class="tok" style="background:rgba(0, 230, 210, 0.85)" title="attention=1.00">opera </span><span class="tok" style="background:rgba(0, 230, 210, 0.85)" title="attention=1.00">sleeve </span><span class="tok" style="background:rgba(0, 230, 210, 0.85)" title="attention=1.00">movement </span><span class="tok" style="background:rgba(0, 230, 210, 0.45)" title="attention=0.46">shows </span><span class="tok" style="background:rgba(0, 230, 210, 0.85)" title="attention=1.00">rhythm </span><span class="tok" style="background:rgba(0, 230, 210, 0.16)" title="attention=0.08">,</span><span class="tok" style="background:rgba(0, 230, 210, 0.85)" title="attention=1.00">gesture </span><span class="tok" style="background:rgba(0, 230, 210, 0.16)" title="attention=0.08">,</span><span class="tok" style="background:rgba(0, 230, 210, 0.85)" title="attention=1.00">visual </span><span class="tok" style="background:rgba(0, 230, 210, 0.47)" title="attention=0.50">style </span><span class="tok" style="background:rgba(0, 230, 210, 0.16)" title="attention=0.08">,</span><span class="tok" style="background:rgba(0, 230, 210, 0.34)" title="attention=0.32">and </span><span class="tok" style="background:rgba(0, 230, 210, 0.85)" title="attention=1.00">cultural </span><span class="tok" style="background:rgba(0, 230, 210, 0.48)" title="attention=0.51">meaning </span><span class="tok" style="background:rgba(0, 230, 210, 0.16)" title="attention=0.08">.</span><span class="tok" style="background:rgba(0, 230, 210, 0.85)" title="attention=1.00">AI </span><span class="tok" style="background:rgba(0, 230, 210, 0.34)" title="attention=0.33">can </span><span class="tok" style="background:rgba(0, 230, 210, 0.48)" title="attention=0.51">connect </span><span class="tok" style="background:rgba(0, 230, 210, 0.85)" title="attention=1.00">text </span><span class="tok" style="background:rgba(0, 230, 210, 0.16)" title="attention=0.08">,</span><span class="tok" style="background:rgba(0, 230, 210, 0.85)" title="attention=1.00">image </span><span class="tok" style="background:rgba(0, 230, 210, 0.16)" title="attention=0.08">,</span><span class="tok" style="background:rgba(0, 230, 210, 0.85)" title="attention=1.00">motion </span><span class="tok" style="background:rgba(0, 230, 210, 0.16)" title="attention=0.08">,</span><span class="tok" style="background:rgba(0, 230, 210, 0.33)" title="attention=0.31">and </span><span class="tok" style="background:rgba(0, 230, 210, 0.85)" title="attention=1.00">music </span><span class="tok" style="background:rgba(0, 230, 210, 0.28)" title="attention=0.24">to </span><span class="tok" style="background:rgba(0, 230, 210, 0.46)" title="attention=0.48">support </span><span class="tok" style="background:rgba(0, 230, 210, 0.85)" title="attention=1.00">digital </span><span class="tok" style="background:rgba(0, 230, 210, 0.85)" title="attention=1.00">heritage </span><span class="tok" style="background:rgba(0, 230, 210, 0.44)" title="attention=0.46">interpretation </span><span class="tok" style="background:rgba(0, 230, 210, 0.30)" title="attention=0.27">and </span><span class="tok" style="background:rgba(0, 230, 210, 0.43)" title="attention=0.44">creative </span><span class="tok" style="background:rgba(0, 230, 210, 0.43)" title="attention=0.44">learning </span><span class="tok" style="background:rgba(0, 230, 210, 0.16)" title="attention=0.08">.</span></div>
+    <div class="legend"></div>
+    <div class="labels"><span>low attention</span><span>high attention</span></div>
+    <div class="note">This demo uses interpretable rules to approximate attention for teaching. It helps audiences see that AI can focus on key cultural tokens such as motion, rhythm, sleeve, heritage, and AI.</div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+rank,name,english,category,cosine_similarity
+1,Lion Dance,Lion Dance,Dance,1.0000
+2,Dragon Boat,Dragon Boat,Ritual,0.9904
+3,Yingge,Yingge Dance,Dance,0.9837
+4,Puppet Theater,Puppet Theater,Theater,0.9588
+5,Yueju,Cantonese Opera,Opera,0.9393
+6,Chaoju,Teochew Opera,Opera,0.9323
+7,Wing Chun,Wing Chun,Martial Art,0.9085
+8,Paper Cutting,Paper Cutting,Craft,0.7529
+9,Guangcai,Guangcai Porcelain,Craft,0.7322
+10,Canton Embroidery,Canton Embroidery,Craft,0.6827
